@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="robot_dof" />
+  <arg name="robot_dof" default="7"/>
   <arg name="paused" default="false" doc="Starts gazebo in paused mode" />
   <arg name="gui" default="true" doc="Starts gazebo gui" />
   <arg name="effort_control" default="false"/>
